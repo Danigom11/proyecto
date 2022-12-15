@@ -11,3 +11,5 @@ urlpatterns = [path('', ListaPendientes.as_view(), name='tareas'),
                path('editar-tarea/<int:pk>', EditarTarea.as_view(), name='editar-tarea'),
                path('eliminar-tarea/<int:pk>', EliminarTarea.as_view(), name='eliminar-tarea'),
                ]
+
+
